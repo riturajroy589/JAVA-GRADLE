@@ -38,7 +38,7 @@ pipeline{
                 }
             }
         }
-        stage{
+        stage("datree misconfigs check"){
             steps{
                 script{
                     dir('kubernetes/') {
